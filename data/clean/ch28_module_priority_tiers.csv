@@ -1,0 +1,48 @@
+module,component,predicted_defects,actual_defects,releases_with_defects,churn,complexity,test_coverage,action,repeat_defect_module,total_defects_all_releases,avg_risk_score,priority_tier
+payments_fraud,Payments,3.19,1,4,454.2,20.06,30.7,Code review + more tests,1,15,59.468490061344596,Tier 1: fix first
+ui_themes,UI,3.0,5,4,529.0,32.95,57.6,Code review + more tests,1,19,60.17522139087225,Tier 1: fix first
+reporting_audit_logs,Reporting,2.0,5,5,773.4,24.92,62.4,Priority code review,1,14,52.161946345559684,Tier 1: fix first
+reporting_scheduler,Reporting,1.76,4,5,262.5,33.4,41.05,Add tests,1,13,59.585197256400065,Tier 1: fix first
+api_gateway,API,1.75,5,5,455.5,17.03,41.1,Code review + more tests,1,29,57.79823160522672,Tier 1: fix first
+api_webhooks,API,1.62,0,4,100.2,13.69,29.5,Add tests,1,5,46.43006332120394,Tier 1: fix first
+reporting_export,Reporting,1.54,3,4,399.0,17.44,61.8,Priority code review,1,7,36.595842397130134,Tier 1: fix first
+ui_notifications,UI,1.37,0,4,593.4,13.31,35.4,Code review + more tests,1,25,62.112652251612076,Tier 1: fix first
+auth_session,Auth,1.07,1,5,167.9,19.44,47.2,Add tests,1,17,60.15930996638226,Tier 1: fix first
+ui_charts,UI,0.79,1,4,214.1,9.88,58.9,Add tests,1,5,36.78501558025304,Tier 1: fix first
+database_migration,Database,0.73,2,5,150.5,17.29,54.7,Add tests,1,12,49.42616667056294,Tier 1: fix first
+api_docs,API,8.55,4,1,1161.8,10.27,87.4,Priority code review,0,4,26.869784458000453,Tier 2: watch closely
+payments_wallet,Payments,4.54,1,3,563.7,25.49,36.9,Code review + more tests,0,5,63.858803171462895,Tier 2: watch closely
+payments_gateway,Payments,2.11,1,4,326.7,22.8,65.4,Monitor,1,7,50.182557427784566,Tier 2: watch closely
+api_versioning,API,1.75,1,3,594.2,15.06,59.5,Code review + more tests,0,4,42.88935300381905,Tier 2: watch closely
+auth_token,Auth,1.45,0,3,424.1,18.9,59.3,Code review + more tests,0,5,43.930688044656485,Tier 2: watch closely
+database_backup,Database,1.32,0,2,583.0,11.88,49.8,Code review + more tests,0,4,35.515725518527525,Tier 2: watch closely
+reporting_emailer,Reporting,1.29,0,1,618.9,3.52,71.9,Priority code review,0,1,19.833759634658886,Tier 2: watch closely
+api_router,API,1.15,1,2,397.5,3.89,67.4,Priority code review,0,2,23.74645716779679,Tier 2: watch closely
+reporting_pdfgen,Reporting,0.74,0,2,338.3,2.0,51.0,Add tests,0,2,30.183481579123526,Tier 2: watch closely
+ui_profile,UI,0.62,0,2,49.4,14.88,57.3,Add tests,0,5,38.223435777518134,Tier 2: watch closely
+database_pool,Database,0.29,0,1,77.1,8.69,52.9,Add tests,0,1,27.58250611415001,Tier 2: watch closely
+database_indexing,Database,0.19,1,1,82.0,9.01,56.6,Add tests,0,1,30.259999346025417,Tier 2: watch closely
+payments_checkout,Payments,0.04,3,2,426.2,11.45,68.6,Priority code review,0,6,31.066089974910778,Tier 2: watch closely
+ui_navbar,UI,1.02,1,2,259.8,22.03,63.3,Monitor,0,3,37.2339809141212,Tier 3: monitor
+payments_invoice,Payments,1.0,4,4,309.1,16.67,63.8,Monitor,1,12,47.41062218362571,Tier 3: monitor
+ui_dashboard,UI,0.91,0,1,244.8,21.02,65.1,Monitor,0,3,40.663753652862326,Tier 3: monitor
+database_cache,Database,0.91,1,2,164.8,14.7,64.6,Monitor,0,2,35.360655147748645,Tier 3: monitor
+database_replication,Database,0.81,2,5,95.9,15.7,63.1,Monitor,1,10,41.375676403414595,Tier 3: monitor
+reporting_templates,Reporting,0.78,0,3,47.1,9.03,67.5,Monitor,0,4,28.0257251681485,Tier 3: monitor
+ui_forms,UI,0.71,1,4,323.0,17.34,67.4,Monitor,1,4,39.429113123599635,Tier 3: monitor
+ui_search,UI,0.62,2,2,153.4,10.78,63.6,Monitor,0,6,41.68442929659757,Tier 3: monitor
+auth_rbac,Auth,0.57,0,2,296.5,20.46,76.15,Monitor,0,2,33.80459631839292,Tier 3: monitor
+auth_audit,Auth,0.57,0,2,108.4,19.32,67.3,Monitor,0,5,38.308433677651024,Tier 3: monitor
+auth_mfa,Auth,0.46,0,0,149.5,5.76,68.4,Monitor,0,0,25.099180249769194,Tier 3: monitor
+reporting_analytics,Reporting,0.33,0,1,51.2,16.58,77.4,Monitor,0,2,30.54118908597229,Tier 3: monitor
+api_validator,API,0.32,4,2,325.85,3.79,75.1,Monitor,0,6,23.179118639864686,Tier 3: monitor
+reporting_aggregator,Reporting,0.31,0,0,131.1,6.31,76.9,Monitor,0,0,19.314488805530008,Tier 3: monitor
+payments_tax,Payments,0.28,1,2,110.7,15.43,70.3,Monitor,0,3,30.173207473381343,Tier 3: monitor
+database_orm,Database,0.24,1,4,57.1,16.34,98.0,Monitor,1,6,24.015787836190153,Tier 3: monitor
+api_graphql,API,0.14,0,0,243.7,11.63,81.0,Monitor,0,0,27.75120293323402,Tier 3: monitor
+auth_oauth,Auth,0.13,1,2,111.6,12.67,77.55,Monitor,0,2,23.30461427646158,Tier 3: monitor
+payments_refund,Payments,0.12,0,3,352.4,9.45,74.1,Monitor,0,3,21.22203457320831,Tier 3: monitor
+api_ratelimit,API,0.11,0,0,210.6,13.44,70.8,Monitor,0,0,33.98979208155437,Tier 3: monitor
+auth_login,Auth,0.1,0,0,168.5,10.71,74.4,Monitor,0,0,25.490754374004457,Tier 3: monitor
+auth_password,Auth,0.08,0,0,260.0,12.1,73.7,Monitor,0,0,25.81144910941496,Tier 3: monitor
+payments_subscription,Payments,0.07,0,3,265.5,8.47,78.3,Monitor,0,4,29.123828138305356,Tier 3: monitor
